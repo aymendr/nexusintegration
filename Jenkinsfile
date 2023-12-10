@@ -1,9 +1,9 @@
 pipeline {
     agent any
-    tools {
+    /*tools {
         maven "localMaven"
         jdk "Java8"
-    }
+    }*/
 
     environment {
         // This can be nexus3 or nexus2
